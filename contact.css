@@ -102,6 +102,7 @@ nav ul li a:hover::after{
     width: fit-content;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 .btn:hover{
     background-color: rgb(88, 84, 84);
@@ -158,18 +159,27 @@ nav .fa-solid{
 
 
 @media only screen and (max-width:600px){
+    .contact{
+        text-align: center;
+    }
     nav p{
         font-size: 30px;
     }
     .sub-title{
         font-size: 1.5rem;
     }
+    .social-icons{
+        margin-left: 30%;
+    }
     .row{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .contact-right{
-        margin-top: 10%;
+        margin-top: 40%;
+        margin-left: 10%;
     }
     .contact-left p i{
         font-size: 1rem;
@@ -177,8 +187,13 @@ nav .fa-solid{
     form input, form textarea{
         font-size: 14px;
     }
-    .btn, .btn2{
+    .btn2{
+        font-size: 12px;
+        margin-left: 15%;
+    }
+    .btn{
         font-size: 13px;
+        margin-left: 15%;
     }
     .copyright{
         margin-top: 45%;
